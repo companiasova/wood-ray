@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, follow">
+    <title>Страница не найдена — WoodRay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #3D2817;
+            --secondary: #8B6F47;
+            --tertiary: #C8945C;
+            --neutral: #F5EFE6;
+            --surface: #FFFFFF;
+            --ink: #1A1410;
+            --line: #D4C9B5;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--ink);
+            background: var(--neutral);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+        .box {
+            max-width: 560px;
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 3rem 2rem;
+        }
+        .code {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 4.5rem;
+            font-weight: 700;
+            color: var(--tertiary);
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-family: 'Source Serif Pro', serif;
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin-bottom: 0.75rem;
+        }
+        p { color: var(--secondary); margin-bottom: 2rem; line-height: 1.6; }
+        .btn {
+            display: inline-block;
+            padding: 13px 26px;
+            background: var(--primary);
+            color: white;
+            font-weight: 600;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: var(--secondary); }
+        .logo {
+            font-family: 'Source Serif Pro', serif;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: 0.12em;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="logo">ВУДРЭЙ · WOOD RAY</div>
+        <div class="code">404</div>
+        <h1>Страница не найдена</h1>
+        <p>Такой страницы на сайте нет. Возможно, адрес набран с ошибкой или материал был перемещён.</p>
+        <a href="/" class="btn">На главную</a>
+    </div>
+</body>
+</html>
