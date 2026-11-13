@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+build_woodray_index.py
+gh-pages-fix.py
+lead-handler.py
+woodray-additions.css
+woodray-form.js
